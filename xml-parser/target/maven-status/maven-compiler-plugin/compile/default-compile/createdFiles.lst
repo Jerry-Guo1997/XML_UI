@@ -1,0 +1,5 @@
+com\example\xmlparser\model\XmlElement.class
+com\example\xmlparser\service\XmlParserService.class
+com\example\xmlparser\XmlParserApplication.class
+com\example\xmlparser\model\XmlAttribute.class
+com\example\xmlparser\controller\XmlParserController.class
