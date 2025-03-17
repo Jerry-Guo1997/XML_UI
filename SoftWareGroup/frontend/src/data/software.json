@@ -1,0 +1,101 @@
+{
+    "softwareList": [
+        {
+            "id": 1,
+            "name": "Visual Studio Code",
+            "description": "轻量级但功能强大的代码编辑器，支持多种编程语言和扩展插件。",
+            "link": "https://code.visualstudio.com/",
+            "category": "development",
+            "icon": "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons/icons/file_type_vscode.svg",
+            "tutorial": "https://code.visualstudio.com/docs"
+        },
+        {
+            "id": 2,
+            "name": "Adobe Photoshop",
+            "description": "专业的图像处理软件，提供强大的图像编辑和设计功能。",
+            "link": "https://www.adobe.com/products/photoshop.html",
+            "category": "design",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/512px-Adobe_Photoshop_CC_icon.svg.png"
+        },
+        {
+            "id": 3,
+            "name": "Microsoft Office",
+            "description": "包含Word、Excel、PowerPoint等办公软件的综合套件。",
+            "link": "https://www.office.com/",
+            "category": "office",
+            "icon": "/icon/mircosoftoffice.png"
+        },
+        {
+            "id": 4,
+            "name": "7-Zip",
+            "description": "高效的文件压缩和解压缩工具，支持多种压缩格式。",
+            "link": "https://www.7-zip.org/",
+            "category": "utility",
+            "icon": "https://7-zip.org/7ziplogo.png"
+        },
+        {
+            "id": 5,
+            "name": "IntelliJ IDEA",
+            "description": "功能强大的Java集成开发环境，支持多种框架和工具。",
+            "link": "https://www.jetbrains.com/idea/",
+            "category": "development",
+            "icon": "/icon/idea.ico"
+        },
+        {
+            "id": 6,
+            "name": "Figma",
+            "description": "基于浏览器的协作设计工具，用于UI/UX设计和原型制作。",
+            "link": "https://www.figma.com/",
+            "category": "design",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/512px-Figma-logo.svg.png"
+        },
+        {
+            "id": 7,
+            "name": "Notion",
+            "description": "集笔记、知识库、任务管理于一体的协作平台。",
+            "link": "https://www.notion.so/",
+            "category": "office",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png"
+        },
+        {
+            "id": 8,
+            "name": "CCleaner",
+            "description": "系统优化和清理工具，可清理垃圾文件和修复注册表问题。",
+            "link": "https://www.ccleaner.com/",
+            "category": "utility",
+            "icon": "/icon/CCleaner.png"
+        },
+        {
+            "id": 9,
+            "name": "GitHub Desktop",
+            "description": "GitHub的官方桌面客户端，简化Git和GitHub的使用流程。",
+            "link": "https://desktop.github.com/",
+            "category": "development",
+            "icon": "https://desktop.github.com/images/desktop-icon.svg"
+        },
+        {
+            "id": 10,
+            "name": "Sketch",
+            "description": "专为UI/UX设计师打造的矢量绘图应用程序。",
+            "link": "https://www.sketch.com/",
+            "category": "design",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sketch_Logo.svg/512px-Sketch_Logo.svg.png"
+        },
+        {
+            "id": 11,
+            "name": "Trello",
+            "description": "基于看板的项目管理工具，适用于个人和团队任务管理。",
+            "link": "https://trello.com/",
+            "category": "office",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Trello-logo-blue.svg/512px-Trello-logo-blue.svg.png"
+        },
+        {
+            "id": 12,
+            "name": "Malwarebytes",
+            "description": "强大的恶意软件检测和清除工具，保护计算机安全。",
+            "link": "https://www.malwarebytes.com/",
+            "category": "utility",
+            "icon": "/icon/Malwarebytes.png"
+        }
+    ]
+}

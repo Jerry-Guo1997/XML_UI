@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>软件导航平台</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>软件导航平台</h1>
+        </header>
+        
+        <div class="tabs">
+            <div class="tab-buttons">
+                <button class="tab-button active" data-tab="software-grid">软件导航</button>
+                <button class="tab-button" data-tab="about">关于我们</button>
+                <button class="tab-button" data-tab="contact">联系方式</button>
+                <button class="tab-button" data-tab="help">帮助中心</button>
+            </div>
+            
+            <div class="tab-content">
+                <!-- 软件导航标签页 - 正方形格子布局 -->
+                <div class="tab-pane active" id="software-grid">
+                    <div class="category-filter">
+                        <span>分类筛选：</span>
+                        <button class="filter-btn active" data-filter="all">全部</button>
+                        <button class="filter-btn" data-filter="development">开发工具</button>
+                        <button class="filter-btn" data-filter="design">设计软件</button>
+                        <button class="filter-btn" data-filter="office">办公软件</button>
+                        <button class="filter-btn" data-filter="utility">实用工具</button>
+                    </div>
+                    
+                    <div class="grid-container">
+                        <!-- 软件格子将通过JavaScript动态生成 -->
+                    </div>
+                </div>
+                
+                <!-- 关于我们标签页 -->
+                <div class="tab-pane" id="about">
+                    <h2>关于我们</h2>
+                    <p>我们致力于为用户提供优质的软件导航服务，帮助用户快速找到所需的软件工具。</p>
+                    <p>本平台收录了各类优质软件，包括开发工具、设计软件、办公软件和实用工具等多个类别。</p>
+                </div>
+                
+                <!-- 联系方式标签页 -->
+                <div class="tab-pane" id="contact">
+                    <h2>联系我们</h2>
+                    <p>如果您有任何问题或建议，请通过以下方式联系我们：</p>
+                    <ul>
+                        <li>邮箱：contact@example.com</li>
+                        <li>电话：123-456-7890</li>
+                        <li>地址：北京市海淀区科技园</li>
+                    </ul>
+                </div>
+                
+                <!-- 帮助中心标签页 -->
+                <div class="tab-pane" id="help">
+                    <h2>帮助中心</h2>
+                    <h3>常见问题</h3>
+                    <div class="faq-item">
+                        <h4>如何提交软件？</h4>
+                        <p>您可以通过联系页面提供的邮箱向我们提交软件信息。</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>如何筛选特定类别的软件？</h4>
+                        <p>在软件导航页面顶部，点击对应的分类按钮即可筛选显示。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>&copy; 2023 软件导航平台 版权所有</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
